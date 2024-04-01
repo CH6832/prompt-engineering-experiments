@@ -17,7 +17,7 @@ In progress
 
 ## :pencil2: Usage
 
-:globe_with_meridians: [Click here](https://CH6832.github.io/prompt-engineeringexperiments/) to visit the website and inspect the results.
+:globe_with_meridians: [Click here](https://CH6832.github.io/prompt-engineering-experiments/) to visit the website and inspect the results.
 
 ## :books: Resources used to create this project
 
