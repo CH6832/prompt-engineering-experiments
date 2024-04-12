@@ -179,7 +179,6 @@
                                             
                                             1. **Entry Point (Taxonomy Schema):**
                                                
-                                               ```xml
                                                <?xml version="1.0"?>
                                                <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema"
                                                            xmlns="http://www.xbrl.org/2003/linkbase"
@@ -191,14 +190,14 @@
                                                
                                                  <xsd:element name="incomeStatement" type="link:linkbaseType" substitutionGroup="link:linkbase"/>
                                                
-                                               </xsd:schema>
-                                               ```
+                                               <xsd:schema>
+                                               
                                             
                                             2. **Label Linkbase:**
                                             
                                                This linkbase provides human-readable labels for each element in the taxonomy.
                                             
-                                               ```xml
+                                             
                                                <?xml version="1.0"?>
                                                <link:linkbase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                                                                xmlns:link="http://www.xbrl.org/2003/linkbase"
@@ -214,14 +213,14 @@
                                                    <!-- More labels for other elements -->
                                                  </link:labelLink>
                                                
-                                               </link:linkbase>
-                                               ```
+                                               <link:linkbase>
+                                              
                                             
                                             3. **Table Linkbase:**
                                             
                                                This linkbase defines relationships between elements for presentation purposes.
                                             
-                                               ```xml
+                                              
                                                <?xml version="1.0"?>
                                                <link:linkbase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                                                                xmlns:link="http://www.xbrl.org/2003/linkbase"
@@ -234,14 +233,14 @@
                                                    <!-- More presentation arcs for other elements -->
                                                  </link:presentationLink>
                                                
-                                               </link:linkbase>
-                                               ```
+                                               <link:linkbase>
+                                              
                                             
                                             4. **Definition Linkbase:**
                                             
                                                This linkbase provides definitions for each element in the taxonomy.
                                             
-                                               ```xml
+                                              
                                                <?xml version="1.0"?>
                                                <link:linkbase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                                                                xmlns:link="http://www.xbrl.org/2003/linkbase"
@@ -254,14 +253,14 @@
                                                    <!-- More definition arcs for other elements -->
                                                  </link:definitionLink>
                                                
-                                               </link:linkbase>
-                                               ```
+                                               <link:linkbase>
+                                             
                                             
                                             5. **Reference Linkbase:**
                                             
                                                This linkbase provides references for each element in the taxonomy.
                                             
-                                               ```xml
+                                              
                                                <?xml version="1.0"?>
                                                <link:linkbase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                                                                xmlns:link="http://www.xbrl.org/2003/linkbase"
@@ -274,8 +273,8 @@
                                                    <!-- More reference arcs for other elements -->
                                                  </link:referenceLink>
                                                
-                                               </link:linkbase>
-                                               ```
+                                               <link:linkbase>
+                                              
                                             
                                             This example provides a basic structure for an XBRL taxonomy, including the entry point and relevant linkbases. In a real-world scenario, the taxonomy would contain a more comprehensive set of elements and relationships, along with documentation and validation rules.
                                         </md-block>
