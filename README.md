@@ -11,6 +11,10 @@ In progress
 ### Content overview
 
     .
+    ├── ai/ - website main content
+    ├── legal/ - legal source code
+    ├── CODE_OF_CONDUCT.md - project code of conduct    
+    ├── COPYRIGHT - project copyright    
     ├── index.html - homepage
     ├── LICENSE - license text
     └── README.md - relevant information about the project
@@ -37,3 +41,11 @@ In progress
 ## :bookmark: License
 
 [Creative Commons Attribution-NonCommercial 3.0](https://creativecommons.org/licenses/by-nc/3.0/legalcode.txt) :copyright: 2024 Christoph Hartleb
+
+## :copyright: Copyright
+
+See the [COPYRIGHT](COPYRIGHT) file for copyright and licensing details.
+
+## :straight_ruler: Code of Conduct
+
+Please review our [Code of Conduct](CODE_OF_CONDUCT.md) before contributing to this project.
