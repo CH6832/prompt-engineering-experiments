@@ -12,8 +12,7 @@ In progress
 
     .
     ├── ai/ - website main content
-    ├── legal/ - legal source code
-    ├── CODE_OF_CONDUCT.md - project code of conduct    
+    ├── legal/ - legal source code 
     ├── COPYRIGHT - project copyright    
     ├── index.html - homepage
     ├── LICENSE - license text
@@ -45,7 +44,3 @@ In progress
 ## :copyright: Copyright
 
 See the [COPYRIGHT](COPYRIGHT) file for copyright and licensing details.
-
-## :straight_ruler: Code of Conduct
-
-Please review our [Code of Conduct](CODE_OF_CONDUCT.md) before contributing to this project.
